@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfSentry", "SurfSentry\SurfSentry.csproj", "{FCE72F28-8E9D-4B3D-8179-A0F0DAD2683E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfSentry.Web", "SurfSentry.Web\SurfSentry.Web.csproj", "{063E125B-619A-4FCE-A4F2-1C43FA398277}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FCE72F28-8E9D-4B3D-8179-A0F0DAD2683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE72F28-8E9D-4B3D-8179-A0F0DAD2683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE72F28-8E9D-4B3D-8179-A0F0DAD2683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063E125B-619A-4FCE-A4F2-1C43FA398277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063E125B-619A-4FCE-A4F2-1C43FA398277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063E125B-619A-4FCE-A4F2-1C43FA398277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063E125B-619A-4FCE-A4F2-1C43FA398277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
