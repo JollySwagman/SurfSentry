@@ -70,14 +70,26 @@
     }
 </script>
 
-<video id="imageView" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
-    <source src="http://surfsentry-aueas.streaming.media.azure.net/478b0bbb-2e3a-49f9-ab52-6c0af17024ef/5d213cf0-1eb9-40e9-9cae-591f1e34e02d.ism/manifest"
-            type="application/vnd.ms-sstr+xml" />
-    <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-</video>
 
-<input type="submit" id="hit" value="Snapshot" onclick="getURIformcanvas()" class="btn" />
-<br />
-<button onClick="capture()" style="width: 64px;border: solid 2px #ccc;">
+@*//aka.ms/ampembed?url=http%3A%2F%2Fsurfsentry-aueas.streaming.media.azure.net%2Fe8cc9ef4-cf8f-458c-9269-7e4b03fc27e4%2F2974bc99-20af-443a-8b2b-9b71af11db6c.ism%2Fmanifest&tech=js*@
+
+<video id="video" width="300px" height="200px" controls="true">
+    <source src="http://surfsentry-aueas.streaming.media.azure.net/478b0bbb-2e3a-49f9-ab52-6c0af17024ef/5d213cf0-1eb9-40e9-9cae-591f1e34e02d.ism/manifest&tech=js"
+            type="application/vnd.ms-sstr+xml" />
+</video><br />
+<button onClick="capture()" style="width: 64px;border: solid
+2px #ccc;">
     Capture
-</button>
+</button><br />
+
+@*<video id="imageView" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
+        <source src="http://surfsentry-aueas.streaming.media.azure.net/478b0bbb-2e3a-49f9-ab52-6c0af17024ef/5d213cf0-1eb9-40e9-9cae-591f1e34e02d.ism/manifest"
+                type="application/vnd.ms-sstr+xml" />
+        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+    </video>
+
+    <input type="submit" id="hit" value="Snapshot" onclick="getURIformcanvas()" class="btn" />
+    <br />
+    <button onClick="capture()" style="width: 64px;border: solid 2px #ccc;">
+        Capture
+    </button>*@
